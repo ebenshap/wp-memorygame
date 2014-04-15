@@ -1,0 +1,101 @@
+/*-----------Memory css--------------------------------------------------*/
+
+#memory *
+{
+	margin:0;
+	padding:0;
+}
+
+#memory #intro, #memory #middle, #memory #end
+{
+	border:yellow solid 4px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin:0 auto;
+}
+
+#memory #intro
+{
+	background: url('images/chimp_in_thought2.jpg') no-repeat ;
+	height:400px;
+	width:640px;
+	margin-top:78px;
+	position:relative
+}
+
+#memory #intro h1
+{
+	background: url('images/chimp_thought.png') no-repeat;
+	font-size: 73px;
+	height: 320px;
+	left: 56px;
+	padding: 65px 55px 55px;
+	position: absolute;
+	top: -98px;
+	width: 394px;
+}
+
+#memory #intro form
+{
+    margin-left: 10px;
+    position: relative;
+    top: 250px;
+}
+
+#memory img
+{
+	margin:2px;
+	display:inline;
+	vertical-align:bottom
+	
+}
+
+#memory #middle
+{
+	background:green;
+	padding:10px
+}
+
+#memory #end
+{
+	background:green;
+}
+
+#memory #end td
+{
+	border:white 1px solid;
+	background:green
+	
+}
+
+#memory #end p
+{
+	margin:20px;
+}
+
+#memory #end form p, #memory #end form input
+{
+	margin:5px;
+	margin-left:20px
+}
+
+#memory #end form
+{
+	margin-bottom:20px
+}
+
+
+#memory #end table
+{
+	width:90%;
+	margin:0 auto;
+	background:green;
+	border-collapse:collapse
+}
+
+#memory {
+    margin: 0 auto;
+    width: 862px;
+}
+
+
